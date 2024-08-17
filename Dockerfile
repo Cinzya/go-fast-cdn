@@ -22,3 +22,5 @@ FROM ubuntu:22.04
 WORKDIR /app
 COPY --from=gowork /app/main .
 CMD [ "./main" ]
+
+EXPOSE 8080
